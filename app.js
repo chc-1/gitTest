@@ -8,5 +8,5 @@ router.get('/hello',(ctx,next)=>{
 app
 .use(router.routes())
 app.listen(3000,()=>{
-	console.log('server is running at http://localhost:3001')
+	console.log('server is running at http://localhost:30010')
 })
